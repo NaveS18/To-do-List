@@ -1,8 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
 
-h1 {
-    color: aquamarine;
+body {
+    background-color: #3b234a;
+}
+
+header {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.StyleButton {
+    padding: 30px 50px;
+    border: none;
+    border-radius: 15px;
+    margin: 0px 20px;
+    background-color: #baafc4;
+    font-size: 20px;
+    
+}
+.box-item {
+    background-color: #d4c7bf;
+    width: auto;
+    height: 40%;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 5px;
+    
+     
+}
+
+.Itens-class {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.taskClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.ButtonClass {
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    display: flex;
+    background-color: #3b234a;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    
 }
